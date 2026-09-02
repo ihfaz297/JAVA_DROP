@@ -49,8 +49,15 @@ class P{int i = 11;
     P(int i){System.out.println(i+" "+"P constructor");}
 }
 class Q extends P{
+    int i = 11;
     {System.out.println("Q.BLOCK1"+i);}
-    Q(int i){super(i);System.out.println("Q constructor");}
+    // int i  = 22; i++;
+    Q(int i){
+        super(i);System.out.println("Q constructor");
+        System.out.println("i="+i);
+        System.out.println("Q.i = "+this.i);
+        // System.out.println("P.i="+ ne);
+    }
 }
 // for constructors, superclass first, then subclass
 class I{
