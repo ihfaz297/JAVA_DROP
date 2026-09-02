@@ -128,6 +128,18 @@ class V{
         System.out.println(q.getClass().getName());
         R r = new R();
         System.out.println(r.getClass().getName());
-
+        var n2= m(1);
+        System.out.println(n2.getClass().getName());
+        var n3= m(2);
+        System.out.println(n3.getClass().getName());
+        var n4= m(3);
+        System.out.println(n4.getClass().getName());
+        System.out.println(n2.i);
+        // System.out.println(n3.j);
+        // System.out.println(n4.k);
+        System.out.println(p instanceof P);
+        System.out.println(p instanceof Q);
+        System.out.println(q instanceof P);
+        System.out.println(p.equals(n4));
     }
 }
