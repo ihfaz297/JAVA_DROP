@@ -8,11 +8,24 @@ public class L06_2022331008 {
     public static void main(String[] args) {
         // P.Q.sqm();
         // P.sm2();
-        P p = new P(6);
-        P k = new Q(9);
+        
         // P.Q h = new P.Q();
         // p.m();
         // P.R f = p.new R();
+
+
+
+
+        // P p = new P(6);
+        // P k = new Q(9);
+
+
+
+
+
+
+
+
     }
 }
 // class P{   private int i=10; static int j = 20;
@@ -45,23 +58,47 @@ public class L06_2022331008 {
 //     static void sm2(){System.out.println("P.sm2()");}
 // }
 
-class P{int i = 11;
-    P(int i){System.out.println(i+" "+"P constructor");}
+// class P{int i = 11;
+//     P(int i){System.out.println(i+" "+"P constructor");}
+// }
+// class Q extends P{
+//     int i = 11;
+//     {System.out.println("Q.BLOCK1"+i);}
+//     // int i  = 22; i++;
+//     Q(int i){
+//         super(i);System.out.println("Q constructor");
+//         System.out.println("i="+i);
+//         System.out.println("Q.i = "+this.i);
+//         // System.out.println("P.i="+ ne);
+//     }
+// }
+// // for constructors, superclass first, then subclass
+// class I{
+//     public static void main(String[] args) {
+//         P p = new Q(6);
+//     }
+// }
+abstract class P{abstract void m();}
+// error: class M is not abstract and does not override abstract method m()
+abstract class M extends P{
+    
 }
+abstract class N{}
+
+
+
+
 class Q extends P{
-    int i = 11;
-    {System.out.println("Q.BLOCK1"+i);}
-    // int i  = 22; i++;
-    Q(int i){
-        super(i);System.out.println("Q constructor");
-        System.out.println("i="+i);
-        System.out.println("Q.i = "+this.i);
-        // System.out.println("P.i="+ ne);
-    }
+    void m(){System.out.println("Q.m()");}
 }
-// for constructors, superclass first, then subclass
-class I{
-    public static void main(String[] args) {
-        P p = new Q(6);
-    }
-}
+
+
+final class X{}
+// class Y extends X{} 
+//error: cannot inherit from final class
+class A{public static void main(String[] args) {
+    // new N();
+    P p = new Q();
+    p.m();
+    
+}}
