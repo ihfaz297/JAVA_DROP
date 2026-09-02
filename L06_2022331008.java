@@ -78,27 +78,44 @@ public class L06_2022331008 {
 //         P p = new Q(6);
 //     }
 // }
-abstract class P{abstract void m();}
-// error: class M is not abstract and does not override abstract method m()
-abstract class M extends P{
+// abstract class P{abstract void m();}
+// // error: class M is not abstract and does not override abstract method m()
+// abstract class M extends P{
     
+// }
+// abstract class N{}
+
+
+
+
+// class Q extends P{
+//     void m(){System.out.println("Q.m()");}
+//     void m2(){System.out.println("Q.m2()");}
+// }
+
+
+// final class X{}
+// // class Y extends X{} 
+// //error: cannot inherit from final class
+// class A{public static void main(String[] args) {
+//     // new N();
+//     P p = new Q();
+//     p.m();
+
+// }}
+
+
+class P{int i = 11;}
+class Q extends P{ int i =22;}
+class R extends Q{int i = 33;}
+class V{
+    public static void main(String[] args) {
+        P p = new P();
+        System.out.println(p.getClass().getName());
+        Q q = new Q();
+        System.out.println(q.getClass().getName());
+        R r = new R();
+        System.out.println(r.getClass().getName());
+
+    }
 }
-abstract class N{}
-
-
-
-
-class Q extends P{
-    void m(){System.out.println("Q.m()");}
-}
-
-
-final class X{}
-// class Y extends X{} 
-//error: cannot inherit from final class
-class A{public static void main(String[] args) {
-    // new N();
-    P p = new Q();
-    p.m();
-    
-}}
