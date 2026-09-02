@@ -8,7 +8,7 @@ public class L06_2022331008 {
     public static void main(String[] args) {
         // P.Q.sqm();
         // P.sm2();
-        // P p = new P();
+        P p = new P(6);
         // P.Q h = new P.Q();
         // p.m();
         // P.R f = p.new R();
@@ -45,13 +45,15 @@ public class L06_2022331008 {
 // }
 
 class P{
-    P(){System.out.println("P constructor");}
+    P(int i){System.out.println(i+" "+"P constructor");}
 }
 class Q extends P{
-    Q(){System.out.println("Q constructor");}
+    {System.out.println("Q.BLOCK1");}
+    Q(int i){super(i);System.out.println("Q constructor");}
 }
+// for constructors, superclass first, then subclass
 class I{
     public static void main(String[] args) {
-        P p = new Q();
+        P p = new Q(6);
     }
 }
