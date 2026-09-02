@@ -22,7 +22,12 @@ public class L06_2022331008 {
 
 
 
-
+        // P p = new P();
+        // System.out.println(p.getClass().getName());
+        // Q q = new Q();
+        // System.out.println(q.getClass().getName());
+        // R r = new R();
+        // System.out.println(r.getClass().getName());
 
 
 
@@ -109,6 +114,13 @@ class P{int i = 11;}
 class Q extends P{ int j =22;}
 class R extends Q{int k = 33;}
 class V{
+    static P m(int i){
+        switch(i){
+            case 1: return new P();
+            case 2: return new Q();
+            case 3: return new R();
+            default: return null;
+        }}
     public static void main(String[] args) {
         P p = new P();
         System.out.println(p.getClass().getName());
