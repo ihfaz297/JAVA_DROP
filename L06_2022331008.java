@@ -110,36 +110,56 @@ public class L06_2022331008 {
 // }}
 
 
-class P{int i = 11;}
-class Q extends P{ int j =22;}
-class R extends Q{int k = 33;}
-class V{
-    static P m(int i){
-        switch(i){
-            case 1: return new P();
-            case 2: return new Q();
-            case 3: return new R();
-            default: return null;
-        }}
+// class P{int i = 11;}
+// class Q extends P{ int j =22;}
+// class R extends Q{int k = 33;}
+// class V{
+//     static P m(int i){
+//         switch(i){
+//             case 1: return new P();
+//             case 2: return new Q();
+//             case 3: return new R();
+//             default: return null;
+//         }}
+//     public static void main(String[] args) {
+//         P p = new P();
+//         P p2=new P();
+//         System.out.println(p.getClass().getName());
+//         Q q = new Q();
+//         System.out.println(q.getClass().getName());
+//         R r = new R();
+//         System.out.println(r.getClass().getName());
+//         var n2= m(1);
+//         System.out.println(n2.getClass().getName());
+//         var n3= m(2);
+//         System.out.println(n3.getClass().getName());
+//         var n4= m(3);
+//         System.out.println(n4.getClass().getName());
+//         System.out.println(n2.i);
+//         // System.out.println(n3.j);
+//         // System.out.println(n4.k);
+//         System.out.println(p instanceof P);
+//         System.out.println(p instanceof Q);
+//         System.out.println(q instanceof P);
+//         System.out.println(p.equals(n4));
+//         System.out.println(p2.hashCode());
+//         T t =  new T();
+//         System.out.println(t);
+//         System.out.println(t.toString());
+//     }
+// }
+// class T{
+//     public String toString(){return "T class";}
+// }
+
+abstract class P{
+    abstract void m();
+}
+class A{
     public static void main(String[] args) {
-        P p = new P();
-        System.out.println(p.getClass().getName());
-        Q q = new Q();
-        System.out.println(q.getClass().getName());
-        R r = new R();
-        System.out.println(r.getClass().getName());
-        var n2= m(1);
-        System.out.println(n2.getClass().getName());
-        var n3= m(2);
-        System.out.println(n3.getClass().getName());
-        var n4= m(3);
-        System.out.println(n4.getClass().getName());
-        System.out.println(n2.i);
-        // System.out.println(n3.j);
-        // System.out.println(n4.k);
-        System.out.println(p instanceof P);
-        System.out.println(p instanceof Q);
-        System.out.println(q instanceof P);
-        System.out.println(p.equals(n4));
+        P p= new P(){
+            void m(){System.out.println("Ann.m");}
+        };
+        p.m();
     }
 }
