@@ -106,8 +106,8 @@ public class L06_2022331008 {
 
 
 class P{int i = 11;}
-class Q extends P{ int i =22;}
-class R extends Q{int i = 33;}
+class Q extends P{ int j =22;}
+class R extends Q{int k = 33;}
 class V{
     public static void main(String[] args) {
         P p = new P();
