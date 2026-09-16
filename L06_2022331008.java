@@ -1,5 +1,5 @@
 /**
- * @LabId: 06
+ * @LabID: 06
  * @Date: 2026-09-02
  * @RegNo: 2022331008
  * @Section: B

@@ -1,0 +1,208 @@
+[2026-09-02 12:55:43] ==============================================================
+[2026-09-02 12:55:43] preflight
+[2026-09-02 12:55:43] ok    file: L06_2022331008.java (4381 bytes)
+[2026-09-02 12:55:43] ok    reg_no: 2022331008
+[2026-09-02 12:55:44] ok    compiles clean
+[2026-09-02 12:55:44] preflight passed
+[2026-09-02 12:56:05] ==============================================================
+[2026-09-02 12:56:05] preflight
+[2026-09-02 12:56:05] ok    file: L06_2022331008.java (4381 bytes)
+[2026-09-02 12:56:05] ok    reg_no: 2022331008
+[2026-09-02 12:56:05] preflight passed
+[2026-09-02 12:56:05] watching http://127.0.0.1:5099/ for up to 0.3 min (probe every 1.5s)
+[2026-09-02 12:56:05] HOST IS UP -- submitting L06_2022331008.java
+[2026-09-02 12:56:05] *** SUBMITTED *** Submission received for 2022331008.
+[2026-09-02 12:56:05] attempt 1 of 6
+[2026-09-02 12:56:06] ==============================================================
+[2026-09-02 12:56:06] preflight
+[2026-09-02 12:56:06] ok    file: L06_2022331008.java (4381 bytes)
+[2026-09-02 12:56:06] FAIL  reg_no must be exactly 10 digits, got '12345'
+[2026-09-02 12:56:06] warn  filename 'L06_2022331008.java' does not contain your reg number
+[2026-09-02 12:56:06] preflight FAILED -- fix the above before the window opens
+[2026-09-02 12:56:20] ==============================================================
+[2026-09-02 12:56:20] preflight
+[2026-09-02 12:56:20] ok    file: L06_2022331008.java (4381 bytes)
+[2026-09-02 12:56:20] ok    reg_no: 2022331008
+[2026-09-02 12:56:20] preflight passed
+[2026-09-02 12:56:20] watching http://127.0.0.1:5098/ for up to 0.08 min (probe every 0.5s)
+[2026-09-02 12:56:26] window closed after 0.08 min; host never answered
+[2026-09-02 12:56:27] NOT submitted. The log above is a timestamped record that you tried.
+[2026-09-02 12:56:27] ==============================================================
+[2026-09-02 12:56:27] preflight
+[2026-09-02 12:56:27] ok    file: L06_2022331008.java (4381 bytes)
+[2026-09-02 12:56:27] ok    reg_no: 2022331008
+[2026-09-02 12:56:27] preflight passed
+[2026-09-02 12:56:27] watching http://127.0.0.1:5097/ for up to 0.5 min (probe every 1s)
+[2026-09-02 12:56:33] HOST IS UP -- submitting L06_2022331008.java
+[2026-09-02 12:56:33] *** SUBMITTED *** Submission received for 2022331008.
+[2026-09-02 12:56:33] attempt 1 of 6
+[2026-09-02 13:09:31] ==============================================================
+[2026-09-02 13:09:31] preflight
+[2026-09-02 13:09:31] ok    file: L07_2022331008.java (165 bytes)
+[2026-09-02 13:09:31] ok    reg_no: 2022331008
+[2026-09-02 13:09:32] ok    compiles clean
+[2026-09-02 13:09:32] preflight passed
+[2026-09-09 08:44:47] ==============================================================
+[2026-09-09 08:44:47] preflight
+[2026-09-09 08:44:47] ok    file: L06_2022331008.java (4381 bytes)
+[2026-09-09 08:44:47] ok    reg_no: 2022331008
+[2026-09-09 08:44:48] ok    compiles clean
+[2026-09-09 08:44:48] preflight passed
+[2026-09-09 08:47:37] ==============================================================
+[2026-09-09 08:47:37] preflight
+[2026-09-09 08:47:37] ok    file: L09_2022331008.java (148 bytes)
+[2026-09-09 08:47:37] ok    reg_no: 2022331008
+[2026-09-09 08:47:38] warn  DOES NOT COMPILE (submitting anyway):
+[2026-09-09 08:47:38]         C:\Users\adib\Desktop\JAVA_DROP\L09_2022331008.java:3: error: ';' expected
+[2026-09-09 08:47:38]                 int x = "this is not an int"
+[2026-09-09 08:47:38]                                             ^
+[2026-09-09 08:47:38]         C:\Users\adib\Desktop\JAVA_DROP\L09_2022331008.java:4: error: ';' expected
+[2026-09-09 08:47:38]                 System.out.println(x)
+[2026-09-09 08:47:38]                                      ^
+[2026-09-09 08:47:38]         C:\Users\adib\Desktop\JAVA_DROP\L09_2022331008.java:5: error: reached end of file while parsing
+[2026-09-09 08:47:38]             }
+[2026-09-09 08:47:38]              ^
+[2026-09-09 08:47:38]         3 errors
+[2026-09-09 08:47:38] preflight passed with 1 warning(s) -- will submit regardless
+[2026-09-09 08:47:40] ==============================================================
+[2026-09-09 08:47:40] preflight
+[2026-09-09 08:47:40] ok    file: L09_2022331008.java (148 bytes)
+[2026-09-09 08:47:40] ok    reg_no: 2022331008
+[2026-09-09 08:47:40] warn  DOES NOT COMPILE (submitting anyway):
+[2026-09-09 08:47:40]         C:\Users\adib\Desktop\JAVA_DROP\L09_2022331008.java:3: error: ';' expected
+[2026-09-09 08:47:40]                 int x = "this is not an int"
+[2026-09-09 08:47:40]                                             ^
+[2026-09-09 08:47:40]         C:\Users\adib\Desktop\JAVA_DROP\L09_2022331008.java:4: error: ';' expected
+[2026-09-09 08:47:40]                 System.out.println(x)
+[2026-09-09 08:47:40]                                      ^
+[2026-09-09 08:47:40]         C:\Users\adib\Desktop\JAVA_DROP\L09_2022331008.java:5: error: reached end of file while parsing
+[2026-09-09 08:47:40]             }
+[2026-09-09 08:47:40]              ^
+[2026-09-09 08:47:40]         3 errors
+[2026-09-09 08:47:40] preflight passed with 1 warning(s) -- will submit regardless
+[2026-09-09 08:47:40] watching http://127.0.0.1:5096/ for up to 0.3 min (probe every 1.5s)
+[2026-09-09 08:47:40] HOST IS UP -- submitting L09_2022331008.java
+[2026-09-09 08:47:40] *** SUBMITTED *** Submission received for 2022331008.
+[2026-09-09 08:47:40] attempt 1 of 6
+[2026-09-09 08:47:52] ==============================================================
+[2026-09-09 08:47:52] preflight
+[2026-09-09 08:47:52] ok    file: L09_2022331008.java (148 bytes)
+[2026-09-09 08:47:52] FAIL  reg_no must be exactly 10 digits, got '12345'
+[2026-09-09 08:47:52] warn  filename 'L09_2022331008.java' does not contain your reg number
+[2026-09-09 08:47:53] warn  DOES NOT COMPILE (submitting anyway):
+[2026-09-09 08:47:53]         C:\Users\adib\Desktop\JAVA_DROP\L09_2022331008.java:3: error: ';' expected
+[2026-09-09 08:47:53]                 int x = "this is not an int"
+[2026-09-09 08:47:53]                                             ^
+[2026-09-09 08:47:53]         C:\Users\adib\Desktop\JAVA_DROP\L09_2022331008.java:4: error: ';' expected
+[2026-09-09 08:47:53]                 System.out.println(x)
+[2026-09-09 08:47:53]                                      ^
+[2026-09-09 08:47:53]         C:\Users\adib\Desktop\JAVA_DROP\L09_2022331008.java:5: error: reached end of file while parsing
+[2026-09-09 08:47:53]             }
+[2026-09-09 08:47:53]              ^
+[2026-09-09 08:47:53]         3 errors
+[2026-09-09 08:47:53] CANNOT submit: bad reg_no
+[2026-09-09 08:48:22] ==============================================================
+[2026-09-09 08:48:22] preflight
+[2026-09-09 08:48:22] ok    file: L06_2022331008.java (4381 bytes)
+[2026-09-09 08:48:22] ok    reg_no: 2022331008
+[2026-09-09 08:48:22] ok    compiles clean
+[2026-09-09 08:48:22] preflight passed
+[2026-09-09 08:50:05] ==============================================================
+[2026-09-09 08:50:05] preflight
+[2026-09-09 08:50:05] ok    file: L03_2022331008.java (2868 bytes)
+[2026-09-09 08:50:05] ok    reg_no: 2022331008
+[2026-09-09 08:50:06] warn  DOES NOT COMPILE (submitting anyway):
+[2026-09-09 08:50:06]         C:\Users\adib\Desktop\JAVA_DROP\L03_2022331008.java:13: error: class L04_2022331008 is public, should be declared in a file named L04_2022331008.java
+[2026-09-09 08:50:06]         public class L04_2022331008 {
+[2026-09-09 08:50:06]                ^
+[2026-09-09 08:50:06]         1 error
+[2026-09-09 08:50:06] preflight passed with 1 warning(s) -- will submit regardless
+[2026-09-09 08:50:06] watching http://10.100.94.157:5000/ for up to 15 min (probe every 1.5s)
+[2026-09-09 08:51:02] interrupted -- NOT submitted
+[2026-09-09 08:51:17] ==============================================================
+[2026-09-09 08:51:17] preflight
+[2026-09-09 08:51:17] ok    file: L04_2022331008.java (2868 bytes)
+[2026-09-09 08:51:17] ok    reg_no: 2022331008
+[2026-09-09 08:51:18] ok    compiles clean
+[2026-09-09 08:51:18] preflight passed
+[2026-09-09 08:51:18] watching http://10.100.94.157:5000/ for up to 15 min (probe every 1.5s)
+[2026-09-09 08:51:36] interrupted -- NOT submitted
+[2026-09-09 10:37:07] ==============================================================
+[2026-09-09 10:37:07] preflight
+[2026-09-09 10:37:07] ok    file: L07_2022331008.java (1802 bytes)
+[2026-09-09 10:37:07] ok    reg_no: 2022331008
+[2026-09-09 10:37:07] warn  DOES NOT COMPILE (submitting anyway):
+[2026-09-09 10:37:07]         C:\Users\adib\Desktop\JAVA_DROP\L07_2022331008.java:10: error: package p2 does not exist
+[2026-09-09 10:37:07]         import p2.T;
+[2026-09-09 10:37:07]                  ^
+[2026-09-09 10:37:07]         C:\Users\adib\Desktop\JAVA_DROP\L07_2022331008.java:11: error: package p2 does not exist
+[2026-09-09 10:37:07]         public class L07_2022331008 extends p2.T {
+[2026-09-09 10:37:07]                                               ^
+[2026-09-09 10:37:07]         C:\Users\adib\Desktop\JAVA_DROP\L07_2022331008.java:25: error: cannot find symbol
+[2026-09-09 10:37:07]                 IO.println(I.n);
+[2026-09-09 10:37:07]                 ^
+[2026-09-09 10:37:07]           symbol:   variable IO
+[2026-09-09 10:37:07]           location: class L07_2022331008
+[2026-09-09 10:37:07]         C:\Users\adib\Desktop\JAVA_DROP\L07_2022331008.java:26: error: cannot find symbol
+[2026-09-09 10:37:07]                 IO.println(I.m);
+[2026-09-09 10:37:07]                 ^
+[2026-09-09 10:37:07]           symbol:   variable IO
+[2026-09-09 10:37:07] preflight passed with 1 warning(s) -- will submit regardless
+[2026-09-09 10:37:07] watching http://10.100.94.157:5000/ for up to 15 min (probe every 1.5s)
+[2026-09-09 10:37:16] interrupted -- NOT submitted
+[2026-09-09 10:40:33] ==============================================================
+[2026-09-09 10:40:33] preflight
+[2026-09-09 10:40:33] ok    file: L07_2022331008.java (1802 bytes)
+[2026-09-09 10:40:33] ok    reg_no: 2022331008
+[2026-09-09 10:40:34] warn  DOES NOT COMPILE (submitting anyway):
+[2026-09-09 10:40:34]         C:\Users\adib\Desktop\JAVA_DROP\L07_2022331008.java:10: error: package p2 does not exist
+[2026-09-09 10:40:34]         import p2.T;
+[2026-09-09 10:40:34]                  ^
+[2026-09-09 10:40:34]         C:\Users\adib\Desktop\JAVA_DROP\L07_2022331008.java:11: error: package p2 does not exist
+[2026-09-09 10:40:34]         public class L07_2022331008 extends p2.T {
+[2026-09-09 10:40:34]                                               ^
+[2026-09-09 10:40:34]         C:\Users\adib\Desktop\JAVA_DROP\L07_2022331008.java:25: error: cannot find symbol
+[2026-09-09 10:40:34]                 IO.println(I.n);
+[2026-09-09 10:40:34]                 ^
+[2026-09-09 10:40:34]           symbol:   variable IO
+[2026-09-09 10:40:34]           location: class L07_2022331008
+[2026-09-09 10:40:34]         C:\Users\adib\Desktop\JAVA_DROP\L07_2022331008.java:26: error: cannot find symbol
+[2026-09-09 10:40:34]                 IO.println(I.m);
+[2026-09-09 10:40:34]                 ^
+[2026-09-09 10:40:34]           symbol:   variable IO
+[2026-09-09 10:40:34] preflight passed with 1 warning(s) -- will submit regardless
+[2026-09-09 10:40:34] watching http://10.100.94.157:5000/ for up to 15 min (probe every 1.5s)
+[2026-09-09 10:40:55] interrupted -- NOT submitted
+[2026-09-09 10:42:23] ==============================================================
+[2026-09-09 10:42:23] preflight
+[2026-09-09 10:42:23] ok    file: L07_2022331008.java (1802 bytes)
+[2026-09-09 10:42:23] ok    reg_no: 2022331008
+[2026-09-09 10:42:24] warn  DOES NOT COMPILE (submitting anyway):
+[2026-09-09 10:42:24]         C:\Users\adib\Desktop\JAVA_DROP\L07_2022331008.java:10: error: package p2 does not exist
+[2026-09-09 10:42:24]         import p2.T;
+[2026-09-09 10:42:24]                  ^
+[2026-09-09 10:42:24]         C:\Users\adib\Desktop\JAVA_DROP\L07_2022331008.java:11: error: package p2 does not exist
+[2026-09-09 10:42:24]         public class L07_2022331008 extends p2.T {
+[2026-09-09 10:42:24]                                               ^
+[2026-09-09 10:42:24]         C:\Users\adib\Desktop\JAVA_DROP\L07_2022331008.java:25: error: cannot find symbol
+[2026-09-09 10:42:24]                 IO.println(I.n);
+[2026-09-09 10:42:24]                 ^
+[2026-09-09 10:42:24]           symbol:   variable IO
+[2026-09-09 10:42:24]           location: class L07_2022331008
+[2026-09-09 10:42:24]         C:\Users\adib\Desktop\JAVA_DROP\L07_2022331008.java:26: error: cannot find symbol
+[2026-09-09 10:42:24]                 IO.println(I.m);
+[2026-09-09 10:42:24]                 ^
+[2026-09-09 10:42:24]           symbol:   variable IO
+[2026-09-09 10:42:24] preflight passed with 1 warning(s) -- will submit regardless
+[2026-09-09 10:42:24] watching http://10.100.94.157:5000/ for up to 15 min (probe every 1.5s)
+[2026-09-09 10:42:24] HOST IS UP -- submitting L07_2022331008.java
+[2026-09-09 10:42:24] REJECTED by portal: No file selected.
+[2026-09-09 10:42:24] data problem, not a network one -- fix it and rerun
+[2026-09-16 10:06:10] ==============================================================
+[2026-09-16 10:06:10] preflight
+[2026-09-16 10:06:10] ok    file: L06_2022331008.java (4381 bytes)
+[2026-09-16 10:06:10] ok    reg_no: 2022331008
+[2026-09-16 10:06:11] ok    compiles clean
+[2026-09-16 10:06:11] preflight passed
+[2026-09-16 10:06:11] watching http://2022331008:5000/ for up to 15 min (probe every 1.5s)
+[2026-09-16 10:06:21] interrupted -- NOT submitted
