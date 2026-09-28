@@ -11,6 +11,7 @@ Run --preflight the night before to catch problems while you can still fix them.
 """
 
 import argparse
+import io
 import json
 import os
 import re
@@ -59,7 +60,25 @@ def load_config():
 
 # ---------------------------------------------------------------- preflight
 
-def preflight(path, reg_no, compile_check=True):
+def previously_submitted(name):
+    """Date this file was last accepted by a real (non-loopback) portal, else None."""
+    try:
+        lines = io.open(LOGFILE, encoding="utf-8").read().splitlines()
+    except OSError:
+        return None
+    host = current = found = None
+    for ln in lines:
+        if "watching http://" in ln:
+            host = ln.split("watching http://", 1)[1].split(":", 1)[0]
+        elif "-- submitting " in ln:
+            current = ln.rsplit("-- submitting ", 1)[1].strip()
+        elif "*** SUBMITTED ***" in ln and current == name:
+            if host not in ("127.0.0.1", "localhost"):
+                found = ln[1:11]
+    return found
+
+
+def preflight(path, reg_no, compile_check=True, allow_resubmit=False):
     """-> (blocking, warnings)
 
     Blocking covers only what makes a submission impossible or certain to be
@@ -74,7 +93,15 @@ def preflight(path, reg_no, compile_check=True):
         return blocking, warnings
 
     size = os.path.getsize(path)
-    log("ok    file: %s (%d bytes)" % (os.path.basename(path), size))
+    name = os.path.basename(path)
+    log("ok    file: %s (%d bytes)" % (name, size))
+
+    prior = previously_submitted(name)
+    if prior and not allow_resubmit:
+        log("FAIL  %s was already SUBMITTED on %s" % (name, prior))
+        log("      this is almost certainly the wrong file. If sir reopened")
+        log("      the window and you really mean it, pass --resubmit")
+        blocking.append("already submitted on " + prior)
     if size == 0:
         log("warn  file is empty")
         warnings.append("file is empty")
@@ -211,7 +238,7 @@ def main():
     ap.add_argument("host", nargs="?", default=cfg.get("host"),
                     help="IP or hostname of the portal, e.g. 10.100.94.157")
     ap.add_argument("--port", type=int, default=cfg.get("port", 5000))
-    ap.add_argument("--file", default=cfg.get("file"), help="the .java file")
+    ap.add_argument("--file", required=True, help="the .java file to submit")
     ap.add_argument("--reg", default=cfg.get("reg_no"), help="10-digit reg number")
     ap.add_argument("--window", type=float, default=15.0,
                     help="minutes to keep watching (default 15)")
@@ -224,16 +251,18 @@ def main():
     ap.add_argument("--preflight", action="store_true",
                     help="run local checks and exit, touching no network")
     ap.add_argument("--no-compile", action="store_true", help="skip javac check")
+    ap.add_argument("--resubmit", action="store_true",
+                    help="allow sending a file the log says was already accepted")
     args = ap.parse_args()
 
-    if not args.file:
-        ap.error("no --file given and none in submission_config.json")
     path = args.file if os.path.isabs(args.file) else os.path.join(HERE, args.file)
 
     log("=" * 62)
+    log("SUBMITTING  >>>  %s  <<<" % os.path.basename(path))
     log("preflight")
     blocking, warnings = preflight(path, args.reg,
-                                   compile_check=not args.no_compile)
+                                   compile_check=not args.no_compile,
+                                   allow_resubmit=args.resubmit)
     if blocking:
         log("CANNOT submit: %s" % "; ".join(blocking))
         return 2

@@ -1,8 +1,7 @@
 {
-  "_comment": "Shared defaults for lab_submit.py and labheader.py.",
+  "_comment": "Shared defaults for lab_submit.py and labheader.py. Never put a filename here.",
   "reg_no": "2022331008",
   "section": "B",
   "port": 5000,
-  "host": null,
-  "file": "L06_2022331008.java"
+  "host": null
 }

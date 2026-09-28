@@ -1,0 +1,31 @@
+The situation: Java Lab Exam on 30th this month
+Problem/Difficulty: I dropped out of this course twice, even though I scored 3.75 in SWE and Design Patterns course taken in Java.
+Antagonist: Yeamin Sir, SUST CSE, java guy
+Exam main topics: see folder @targets-of-lab-test-2
+How Claude comes into the picture: I have loads of data on him. You're an LLM. What say we play this little game of "win-lab-2" by analysing behavioral Patterns of my beloved sir?
+What Claude has access to: folders and files in this workspace(leave out the .py scripts and stuff, those were for submission and all that)
+# Can I help Claude?: I could suggest using [import sys
+# import subprocess
+
+# try:
+#     import fitz
+# except ImportError:
+#     subprocess.check_call([sys.executable, "-m", "pip", "install", "PyMuPDF"])
+#     import fitz
+
+# pdf_path = r"c:\Users\adib\Desktop\swe\Software Engineering & Design Pattern.pdf"
+# try:
+#     doc = fitz.open(pdf_path)
+#     for i in range(len(doc)):
+#         page = doc.load_page(i)
+#         pix = page.get_pixmap(dpi=300)
+#         out_path = rf"c:\Users\adib\Desktop\swe\page_{i+1}.png"
+#         pix.save(out_path)
+#     print(f"Successfully converted {len(doc)} pages to images.")
+# except Exception as e:
+#     import traceback
+#     traceback.print_exc()
+#     print(f"Error: {e}")
+# ]
+# cz frankly I feel like vomiting after seeing so many pdfs.
+Some bosses: look at the folder Dread-of-CSE, lab codes of 2022, 2024, labexamquestions, even of 2021

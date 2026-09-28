@@ -206,3 +206,30 @@
 [2026-09-16 10:06:11] preflight passed
 [2026-09-16 10:06:11] watching http://2022331008:5000/ for up to 15 min (probe every 1.5s)
 [2026-09-16 10:06:21] interrupted -- NOT submitted
+[2026-09-16 11:13:49] ==============================================================
+[2026-09-16 11:13:49] preflight
+[2026-09-16 11:13:49] ok    file: L06_2022331008.java (4381 bytes)
+[2026-09-16 11:13:49] ok    reg_no: 2022331008
+[2026-09-16 11:13:50] ok    compiles clean
+[2026-09-16 11:13:50] preflight passed
+[2026-09-16 11:13:50] watching http://10.100.94.98:5000/ for up to 15 min (probe every 1.5s)
+[2026-09-16 11:13:50] HOST IS UP -- submitting L06_2022331008.java
+[2026-09-16 11:13:51] *** SUBMITTED *** ✅ Submission accepted! File saved as &#39;L06_2022331008.java&#39;.
+[2026-09-16 11:13:51] attempt 1 of 6
+[2026-09-16 12:28:42] ==============================================================
+[2026-09-16 12:28:42] SUBMITTING  >>>  L06_2022331008.java  <<<
+[2026-09-16 12:28:42] preflight
+[2026-09-16 12:28:42] ok    file: L06_2022331008.java (4381 bytes)
+[2026-09-16 12:28:42] FAIL  L06_2022331008.java was already SUBMITTED on 2026-09-16
+[2026-09-16 12:28:42]       this is almost certainly the wrong file. If sir reopened
+[2026-09-16 12:28:42]       the window and you really mean it, pass --resubmit
+[2026-09-16 12:28:42] ok    reg_no: 2022331008
+[2026-09-16 12:28:43] ok    compiles clean
+[2026-09-16 12:28:43] CANNOT submit: already submitted on 2026-09-16
+[2026-09-16 12:28:44] ==============================================================
+[2026-09-16 12:28:44] SUBMITTING  >>>  L08_2022331008.java  <<<
+[2026-09-16 12:28:44] preflight
+[2026-09-16 12:28:44] ok    file: L08_2022331008.java (3618 bytes)
+[2026-09-16 12:28:44] ok    reg_no: 2022331008
+[2026-09-16 12:28:45] ok    compiles clean
+[2026-09-16 12:28:45] preflight passed

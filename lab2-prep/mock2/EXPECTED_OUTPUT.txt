@@ -1,0 +1,20 @@
+Main Start
+Base static
+K static
+Base init
+Base()
+K.show id=0
+K init 1
+K(7)
+K.show id=7
+1
+Base init
+Base()
+K.show id=0
+K init 2
+K(0)
+K()
+2 7
+K.show id=7
+120 55
+K#7
