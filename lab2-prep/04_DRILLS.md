@@ -2,7 +2,7 @@
 
 Rules: **no running the code.** Write your answer, then open the answer.
 Every answer below is real `javac`/`java` output. Score yourself: 17+/20 means you're ready.
-Every one you get wrong: reread the matching section in `02_TUTORIAL.md` (tag in brackets).
+Every one you get wrong: reread the matching section in `03_TUTORIAL.md` (tag in brackets).
 
 ---
 

@@ -1,7 +1,7 @@
 # Tutorial: the 20-minute method, then the concepts
 
-You already passed SWE/Design Patterns in Java with a 3.75. You know OOP.
-What's been beating you is **a locked file, a clock, and his specific tricks**. This file handles those.
+This file assumes you've done `01_FOUNDATIONS.md` (F1–F6). If a Part C section feels shaky, jump back to the matching § there.
+What's left after the foundations is **a locked file, a clock, and his specific tricks**. This file handles those.
 
 ---
 
