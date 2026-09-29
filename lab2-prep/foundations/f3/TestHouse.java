@@ -26,7 +26,7 @@ public class TestHouse {
         House.Plan p = new House.Plan(3);
         tester(p.floors == 3 && p.info().equals("plan:3:Standard"));
         tester(House.Plan.cheapest().floors == 1);
-        Greeter g = h.doorbell();
+        Greeter g = h.doorbell();//////
         tester(g.greet("Ana").equals("Welcome to Red, Ana"));
         h.color = "Green";
         tester(g.greet("Bo").equals("Welcome to Green, Bo"));
