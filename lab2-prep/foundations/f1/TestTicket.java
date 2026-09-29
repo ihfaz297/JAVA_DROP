@@ -20,6 +20,7 @@ public class TestTicket {
         tester(a.label().equals("TK-1") && b.label().equals("TK-2"));
         Ticket.PRICE = 50;
         tester(a.cost() == 50 && b.cost() == 50);
+        System.out.println(a.cost()+" "+b.cost());
         a.PRICE = 80;
         tester(b.cost() == 80 && Ticket.PRICE == 80);
         a.discount = 30;
