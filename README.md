@@ -1,4 +1,4 @@
-# ☕ JAVA_DROP
+# JAVA_DROP
 
 > A cozy collection of Java lab materials, assignments, and prep resources for Object-Oriented Programming.
 
@@ -46,7 +46,7 @@ Got cleaner code, updated lab tasks, or extra resources to share? **Pull request
 
 ## Acknowledgments
 
-* A massive shoutout to **all the seniors and batchmates who unified the Java folder in the batch drives**—this repository proudly serves as a tribute to their collective efforts and sharing spirit!
+* A massive shoutout to **all the seniors, batchmates and juniors who unified the Java folder in the batch drives**—this repository proudly serves as a tribute to their collective efforts and sharing spirit!
 * Special compliments to **Sanjoy, the AutoCAD guy**, for generating the AutoCAD-assistance artifact! ([Check it out here](https://claude.ai/artifact/SQp9hKxzhpTJ6bS6Ac9g4x))
 * Have a blast learning and coding, y'all! If you find this helpful, feel free to give the repo a ⭐!
 
