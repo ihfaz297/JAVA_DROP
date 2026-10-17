@@ -1,6 +1,6 @@
 # JAVA_DROP
 
-> *A cozy collection of Java lab materials, assignments, and prep resources for Object-Oriented Programming!*
+> *A cozy collection of Java lab materials, assignments, and prep resources for Object-Oriented Programming!* 
 
 Welcome to **JAVA_DROP**! This repository serves as a centralized hub for content related to **CSE 2133 (Object Oriented Programming Language)** and **CSE 2134 (Object Oriented Programming Language Lab)**. Whether you're catching up on lab codes, preparing for lab tests, or reviewing assignments, you'll find everything you need right here. 
 
@@ -40,7 +40,8 @@ Here is a quick overview of what you'll find organized in the repository:
 
 ## Acknowledgments
 
-* Compliments to **Sanjoy, the AutoCAD guy**, for generating the AutoCAD-assistance artifact! ([Check it out here](https://claude.ai/artifact/SQp9hKxzhpTJ6bS6Ac9g4x))
+* A massive shoutout to **all the seniors and batchmates who unified the Java folder in the batch drives**—this repository proudly serves as a tribute to their collective efforts and sharing spirit!
+* Special compliments to **Sanjoy, the AutoCAD guy**, for generating the AutoCAD-assistance artifact! ([Check it out here](https://claude.ai/artifact/SQp9hKxzhpTJ6bS6Ac9g4x))
 * Have a blast learning and coding, y'all! If you find this helpful, feel free to give the repo a ⭐!
 
 ---
