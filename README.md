@@ -1,6 +1,6 @@
 # JAVA_DROP
 
-> *A cozy collection of Java lab materials, assignments, and prep resources for Object-Oriented Programming!* 🚀
+> *A cozy collection of Java lab materials, assignments, and prep resources for Object-Oriented Programming!*
 
 Welcome to **JAVA_DROP**! This repository serves as a centralized hub for content related to **CSE 2133 (Object Oriented Programming Language)** and **CSE 2134 (Object Oriented Programming Language Lab)**. Whether you're catching up on lab codes, preparing for lab tests, or reviewing assignments, you'll find everything you need right here. 
 
